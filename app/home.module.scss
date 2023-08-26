@@ -1,0 +1,85 @@
+.root {
+    height: 100vh;
+    background-image: url("/bg1.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+.logo{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+.rect1{
+    position: absolute;
+    top: 15%;
+    bottom: 0%;
+    height: 70%;
+    width: 90%;
+    background: #023B98;
+    border-radius: 40px;
+
+}
+
+
+.rect2{
+    position: absolute;
+    left: 0%;
+    right: 48.9%;
+    top: 0%;
+    bottom: 0%;
+    background: #1657C1;
+    box-shadow: 3px 0px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 40px 0px 0px 40px;
+
+}
+
+.rect3{
+    box-sizing: border-box;
+    position: absolute;
+    width: 50%;
+    height: 90%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: #D9D9D9;
+    border-radius: 20px;
+}
+
+.textContainer
+{
+    position: absolute;
+    left: 16%;
+    top: 16%;
+}
+
+.button{
+    position: absolute;
+    cursor: pointer;
+
+    left: 0%;
+    top: 290%;
+    width: 40%;
+    height: 30%;
+
+    background-color: #D9D9D9;
+    border-radius: 20px;
+
+    color: #1657C1;
+    font-size: large;
+    font-weight: bold;
+    
+    transition: 0.3s;
+}
+
+.name{
+    color: aliceblue;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
